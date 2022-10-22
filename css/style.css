@@ -1,10 +1,18 @@
 /*general stales*/
+:root { 
+  --main-text-color:#212121;
+  --secondary-text-color:#ffffff;
+  --main-fond:'Roboto',sans-serif;
+  --accent-color:#2196f3;
+  --background-color:#ffffff;
+  --background-color:#2F303A;
+}
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #ffffff;
+  font-family: var(--'Roboto', sans-serif);
+  background-color: var( --#ffffff);
   font-size: 14px;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--#212121);
 }
 .list {
   list-style: none;
