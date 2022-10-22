@@ -1,6 +1,10 @@
 /*general stales*/
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 .list {
   list-style: none;
@@ -36,7 +40,7 @@ body {
   color: #2196f3;
 }
 .header-nav-studio:hover {
-  color: coral;
+  color: #2196f3;
 }
 
 .header-nav-portfolio {
@@ -56,13 +60,14 @@ body {
 }
 .header-nav-portfolio:hover,
 .header-nav-contact:hover {
-  color: coral;
+  color: #2196f3;
 }
 .header-tel-link {
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
+  text-decoration: none;
   color: #757575;
 }
 /*hero*/
@@ -76,9 +81,11 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
 .hero-button {
+  font-family: 'Roboto';
+  font-style: normal;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-weight: 700;
@@ -87,6 +94,18 @@ body {
   color: #ffffff;
 }
 /*about*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .about-title {
   font-weight: 700;
   font-size: 14px;
@@ -101,45 +120,74 @@ body {
 }
 /*work n*/
 .work-title {
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height:calc(42 / 36);
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: #212121;
 }
 /*наша команда*/
+
 .komand-title {
-font-weight: 700;
-font-size: 36px;
-line-height: calc(42 / 36);
-color: #212121;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #212121;
 }
 .komand-title-after {
-font-weight: 500;
-font-size: 16px;
-line-height: calc(19 / 16);
-color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  color: #212121;
 }
 .komand-after {
-font-weight: 400;
-font-size: 16px;
-line-height: calc(19 / 16);
-color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  color: #757575;
+}
+/*footer*/
+.footer { 
+  background: #2F303A;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.header-last-parts {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 .address-title {
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-color: #FFFFFF;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
 }
 .address-mail {
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
 }
 .address-tel {
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.list {
+  list-style: none;
 }
